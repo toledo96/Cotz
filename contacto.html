@@ -10,8 +10,134 @@
     <script src="https://unpkg.com/bootstrap@4.0.0/dist/js/bootstrap.js"></script>
     <link href="https://unpkg.com/bootstrap@4.0.0/dist/css/bootstrap.css" rel="stylesheet" />
   <link href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/shop-homepage.css" rel="stylesheet">
+  <link rel="icon" href="icono.ico" type="image/x-icon">
 </head>
 <body>
+
+      <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Cuenta</a>
+          </li>
+          <li>
+            <img src="imagenes/carro.png" width="30px" height="30px" alt="" style="margin-left: 2px;">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- imagen completa -->
+  <div class="container-fluid">
+      <img src="" alt="">
+  </div>
+
+
+  <!-- formulario -->
+  <div class="container-fluid" >
+    <div class="row" >
+        <div class="col-md-7" style="border: 2px solid;">
+            <form action="" >
+                <div class="form-group">                    
+                    <div class="col-sm-6" style="text-align: left;">
+                        <label for="Nombre"><strong>Nombre:</strong></label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                </div>
+
+                <div class="form-group">                    
+                    <div class="col-sm-6" style="text-align: left;">
+                        <label for="Nombre"><strong>Apellidos:</strong></label>
+                        <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+                    </div>
+                </div>
+
+                <div class="form-group">                    
+                    <div class="col-sm-8" style="text-align: left;">
+                        <label for="Nombre"><strong>Correo:</strong></label>
+                        <input type="email" class="form-control" id="correo" placeholder="@Correo">
+                    </div>
+                </div>
+
+                <div class="form-group">                    
+                    <div class="col-sm-8" style="text-align: left;">
+                        <label for="Nombre"><strong>Mensaje:</strong></label>
+                        <textarea class="form-control" rows="5" id="mensaje"></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-block">Enviar</button>
+            </form>
+        </div>
+
+        <div class="col-md-5" >
+            <img src="imagenes/Logo_sin_fondo.png" height="450px" width="450px" alt="">
+        </div>
+
+    </div>
+  </div>
+
+  <!-- localizar telefonos -->
+  <div class="container-fluid">
+      <div class="row">
+          <!-- telefono -->
+          <div class="col-md-6">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"  style="text-align: center;">
+                        <img src="imagenes/llamada.png" width="60px" height="60px" alt="">
+                        <p>TEL:9876543456</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" >
+                        
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- whatsapp -->
+          <div class="col-md-6">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"  style="text-align: center;">
+                        <img src="Vecteezy_Social_Media_Icons/Social Media Icons/PNG/Circle Color/WhatsApp.png" width="60px" height="60px" alt="">
+                        <p>TEL:9876543456</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" >
+                        
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
     
 </body>
 </html>
