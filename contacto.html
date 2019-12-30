@@ -58,116 +58,40 @@
   <!-- formulario -->
   <div class="sendmsn">
     <div class="cuadromsn"><form action="">
-      <div>
-        <label><strong>Nombre</strong></label>
-        <input class="textlabel" type="text" name="nombre" id="noambre">
+      <h1><strong>Mandanos un Correo</strong></h1>
+      <div class="infomsn">
+        <div class=grouplabel>
+          <label><strong>Nombre</strong></label>
+          <input class="textlabel" type="text" name="nombre" id="noambre">
+        </div>
+        <div class=grouplabel>
+          <label><strong>Apellidos</strong></label>
+          <input class="textlabel" type="text" name="apellidos" id="apellidos">
+        </div>
       </div>
-      <div>
-        <label><strong>Apellidos</strong></label>
-        <input class="textlabel" type="text" name="apellidos" id="apellidos">
+      <div class="infomsn">
+        <div class=grouplabel>
+          <label for=""><strong>Asunto</strong></label>
+          <input class="textlabel" type="text" name="asunto" id="asunto">
+        </div>
+        <div class=grouplabel>
+          <label for=""><strong>Correo</strong></label>
+          <input class="textlabel" type="text" name="correo" id="correo">
+        </div class=grouplabel>
       </div>
-      <div>
-        <label></label>
-        <label></label>
-      </div>
-      <div>
-        <label for=""><strong>Asunto</strong></label>
-        <input class="textlabel" type="text" name="asunto" id="asunto">
-      </div>
-      <div>
-        <label for=""><strong>Correo</strong></label>
-        <input class="textlabel" type="text" name="correo" id="correo">
-      </div>
+      <label for=""><strong>Mensaje</strong></label>
       <textarea class="msnarea" name="mensaje" id="" cols="30" rows="10"></textarea>
+      <button class="btnsend">Enviar</button>
     </form></div>
-    <div class="imgmsn"><img src="imagenes/Logo_sin_fondo.png" style="width: 100%;height: 100%;" alt=""></div>
-  </div>
-
-  <div class="container-fluid" >
-    <div class="row" >
-        <div class="col-md-7" style="margin-left: 15px;border: 2px solid;">
-            <form action="" >
-                <div class="Nombres_Apellidos">
-                  <div class="form-group">                    
-                      <div class="col-sm-6" style="text-align: left;">
-                          <label for="Nombre"><strong>Nombre:</strong></label>
-                          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                      </div>
-                  </div>
-
-                  <div class="form-group">                    
-                      <div class="col-sm-6" style="text-align: left;">
-                          <label for="Nombre"><strong>Apellidos:</strong></label>
-                          <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
-                      </div>
-                  </div>
-                </div>
-
-                <div class="form-group">                    
-                    <div class="col-sm-8" style="text-align: left;">
-                        <label for="Nombre"><strong>Correo:</strong></label>
-                        <input type="email" class="form-control" id="correo" placeholder="@Correo">
-                    </div>
-                </div>
-
-                <div class="form-group">                    
-                    <div class="col-sm-8" style="text-align: left;">
-                        <label for="Nombre"><strong>Mensaje:</strong></label>
-                        <textarea class="form-control" rows="5" id="mensaje"></textarea>
-                    </div>
-                </div>
-                <button class="btn btn-primary btn-block">Enviar</button>
-            </form>
-        </div>
-
-        <div class="col-md-5" >
-            <img src="imagenes/Logo_sin_fondo.png" height="450px" width="450px" alt="">
-        </div>
-
+    <div class="imgmsn">
+      <img src="imagenes/Logo_sin_fondo.png" style="width: 100%;height: 100%;" alt="">
+      <!-- telefono -->
+      <div class="tel"><img src="imagenes/llamada.png" width="60px" height="60px" alt="">
+        <p><strong>TEL:9876543456</strong></p></div c>
+      <!-- whatsapp -->
+      <div class="tel"><img src="Vecteezy_Social_Media_Icons/Social Media Icons/PNG/Circle Color/WhatsApp.png" width="60px" height="60px" alt="">
+        <p><strong>TEL:9876543456</strong></p></div>
     </div>
-  </div>
-
-  <!-- localizar telefonos -->
-  <div class="container-fluid">
-      <div class="row">
-          <!-- telefono -->
-          <div class="col-md-6">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"  style="text-align: center;">
-                        <img src="imagenes/llamada.png" width="60px" height="60px" alt="">
-                        <p>TEL:9876543456</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6" >
-                        
-                    </div>
-                </div>
-            </div>
-          </div>
-          <!-- whatsapp -->
-          <div class="col-md-6">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"  style="text-align: center;">
-                        <img src="Vecteezy_Social_Media_Icons/Social Media Icons/PNG/Circle Color/WhatsApp.png" width="60px" height="60px" alt="">
-                        <p>TEL:9876543456</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6" >
-                        
-                    </div>
-                </div>
-            </div>
-          </div>
-      </div>
-  </div>
-    
+  </div>    
 </body>
 </html>
