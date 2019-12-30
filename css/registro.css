@@ -14,10 +14,10 @@ align-content: center;
 }
 
 .card{
-height: 370px;
+height: 450px;
 margin-top: auto;
 margin-bottom: auto;
-width: 400px;
+width: 420px;
 background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -39,7 +39,7 @@ color: white;
 .social_icon{
 position: absolute;
 right: 200px;
-top: 220px;
+top: 360px;
 }
 
 .input-group-prepend span{
