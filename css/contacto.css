@@ -1,0 +1,23 @@
+.sendmsn{
+}
+.cuadromsn{
+    width: 50%;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid;
+}
+.msnarea{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.textlabel{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.imgmsn{
+    width: 50%;
+}

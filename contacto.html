@@ -11,6 +11,7 @@
     <link href="https://unpkg.com/bootstrap@4.0.0/dist/css/bootstrap.css" rel="stylesheet" />
   <link href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" />
   <link href="css/shop-homepage.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/contacto.css">
   <link rel="icon" href="icono.ico" type="image/x-icon">
 </head>
 <body>
@@ -55,22 +56,51 @@
 
 
   <!-- formulario -->
+  <div class="sendmsn">
+    <div class="cuadromsn"><form action="">
+      <div>
+        <label><strong>Nombre</strong></label>
+        <input class="textlabel" type="text" name="nombre" id="noambre">
+      </div>
+      <div>
+        <label><strong>Apellidos</strong></label>
+        <input class="textlabel" type="text" name="apellidos" id="apellidos">
+      </div>
+      <div>
+        <label></label>
+        <label></label>
+      </div>
+      <div>
+        <label for=""><strong>Asunto</strong></label>
+        <input class="textlabel" type="text" name="asunto" id="asunto">
+      </div>
+      <div>
+        <label for=""><strong>Correo</strong></label>
+        <input class="textlabel" type="text" name="correo" id="correo">
+      </div>
+      <textarea class="msnarea" name="mensaje" id="" cols="30" rows="10"></textarea>
+    </form></div>
+    <div class="imgmsn"><img src="imagenes/Logo_sin_fondo.png" style="width: 100%;height: 100%;" alt=""></div>
+  </div>
+
   <div class="container-fluid" >
     <div class="row" >
-        <div class="col-md-7" style="border: 2px solid;">
+        <div class="col-md-7" style="margin-left: 15px;border: 2px solid;">
             <form action="" >
-                <div class="form-group">                    
-                    <div class="col-sm-6" style="text-align: left;">
-                        <label for="Nombre"><strong>Nombre:</strong></label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                    </div>
-                </div>
+                <div class="Nombres_Apellidos">
+                  <div class="form-group">                    
+                      <div class="col-sm-6" style="text-align: left;">
+                          <label for="Nombre"><strong>Nombre:</strong></label>
+                          <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                      </div>
+                  </div>
 
-                <div class="form-group">                    
-                    <div class="col-sm-6" style="text-align: left;">
-                        <label for="Nombre"><strong>Apellidos:</strong></label>
-                        <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
-                    </div>
+                  <div class="form-group">                    
+                      <div class="col-sm-6" style="text-align: left;">
+                          <label for="Nombre"><strong>Apellidos:</strong></label>
+                          <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+                      </div>
+                  </div>
                 </div>
 
                 <div class="form-group">                    
