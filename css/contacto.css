@@ -1,23 +1,83 @@
 .sendmsn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cuadromsn{
-    width: 50%;
+    margin: 5px;
+    width: 65%;
     height: fit-content;
     padding: 10px;
     border-radius: 8px;
     border: 2px solid;
+    color: aliceblue;
+    background-image: url(../imagenes/cafe.png);
+    background-size: 15%;
+    border-color: #2D1B15;
 }
 .msnarea{
+    font-weight: bold;
     width: 100%;
-    margin-top: 20px;
     border-radius: 5px;
     border: 1px solid;
+    border-color: #005132;
 }
 .textlabel{
-    margin-top: 10px;
+    font-weight: bold;
+    width: calc(100% - 10px);
     border-radius: 5px;
     border: 1px solid;
+    border-color: #005132;
 }
 .imgmsn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    max-width: 30%;
+    height: fit-content;
+}
+.tel{
+    text-align:center;
+    margin: 10px;
+}
+.infomsn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.grouplabel{
     width: 50%;
+}
+.btnsend{
+    float: right;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #04633e;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 0px;
+}
+h1{
+    -webkit-text-stroke: 2px black;
+}
+label{
+    font-size: 1.5vw;-webkit-text-stroke: 1px black;
+}
+@media(max-width:700px){
+    .sendmsn{
+        display: inline;
+        align-items: center;
+    }
+    .cuadromsn{
+        padding-bottom: 60px;
+    }
+    .cuadromsn{
+        width: calc(100% - 10px);
+    }
+    .imgmsn{
+        max-width: calc(100% - 10px);
+    }
 }
